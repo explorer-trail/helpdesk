@@ -1,4 +1,6 @@
 import Config
+config :helpdesk, token_signing_secret: "BVHOJGg8muqiXm4wAjJHLDeMWIcOb7wD"
+config :bcrypt_elixir, log_rounds: 1
 config :ash, policies: [show_policy_breakdowns?: true]
 
 # Configure your database
