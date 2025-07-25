@@ -35,10 +35,6 @@ defmodule Helpdesk.MixProject do
   # Type `mix help deps` for examples and options.
   defp deps do
     [
-      {:simple_sat, "~> 0.1"},
-      {:password, "~> 1.0"},
-      {:ash_authentication_phoenix,
-       git: "https://github.com/team-alembic/ash_authentication_phoenix.git", branch: "main"},
       {:sourceror, "~> 1.8", only: [:dev, :test]},
       {:ash, "~> 3.0"},
       {:igniter, "~> 0.6", only: [:dev, :test]},

@@ -65,7 +65,7 @@ config :helpdesk, HelpdeskWeb.Endpoint,
   ]
 
 # Enable dev routes for dashboard and mailbox
-config :helpdesk, dev_routes: true, token_signing_secret: "P+qefCRNkiPuBIcU6vqQjT5HaGADQ64u"
+config :helpdesk, dev_routes: true
 
 # Do not include metadata nor timestamps in development logs
 config :logger, :default_formatter, format: "[$level] $message\n"
